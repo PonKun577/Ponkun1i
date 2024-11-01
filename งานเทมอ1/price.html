@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id ="demo3"></p>
+
+    <script>
+       let a = 10;
+       let b = 20;
+       let c = a + b;
+       document.getElementById('demo').innerHTML = c ;
+
+       let  d , e , f, g;
+       d = 100;
+       e = 300;
+       f = "a";
+       g = "30";
+       document.getElementById('demo2').innerHTML = d ;
+
+       let price = {
+           coffee:10,
+           Omelet:300,
+           padthai:150,
+           weed:500,
+       }
+       let sum = price.weed+price.Omelet;
+       document.getElementById('demo3').innerHTML = price.weed;
+    </script>
+</body>
+</html>

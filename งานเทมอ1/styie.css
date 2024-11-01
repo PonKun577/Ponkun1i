@@ -1,0 +1,7 @@
+body {
+
+  }
+.table,td,tr{
+    table-layout: fixed;
+    border: 1px solid black;
+}

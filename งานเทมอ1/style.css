@@ -1,0 +1,20 @@
+
+table, th, td { /*นำไปใช้กับ <table>,<th>,<td>*/
+    border: 1px solid #000;
+    font-size: 16px; /*ขนาด Font*/
+    height: 50px; 
+    width: 120px; 
+    vertical-align: middle; /*การจัดวาง text*/
+    border-collapse: collapse; /* กำหนดให้การแสดงผลเส้นขอบระหว่างเซลล์*/
+    color: rgb(255, 0, 0);
+    padding: 15px; /*ระยะห่าง ระหว่าง View กับ Content */
+}
+body {
+    display: flex; /*การแสดงผล*/
+    flex-direction: column; /*การจัดเรียง Items*/
+    align-items: center; /*การจัดวาง text*/
+    text-align: center; /*การจัดวาง text*/
+    justify-content: center; /*ตำแหน่ง content*/
+    height: 150vh; /*ความสูง*/
+    margin: 0; /*ขนาดของขอบ*/
+}
