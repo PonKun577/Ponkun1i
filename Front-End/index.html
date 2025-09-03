@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="contact">
+        <div class="container">
+            <h2>ติดต่อเรา</h2>
+            <div class="contact-info">
+                <div class="info">
+                    <h3>ข้อมูลติดต่อ</h3>
+                    <p><i class="icon-phone"></i> โทรศัพท์: 0838929590</p>
+                    <p><i class="icon-email"></i> อีเมล: sj216549@gmail.com</p>
+                    <p><i class="icon-location"></i> ที่อยู่: 123 ถนนคู้บอน รามอินทรา</p>
+                </div>
+
+                <div class="form">
+                    <h3>ฟอร์มติดต่อ</h3>
+                    <form action="submit_form.php" method="post">
+                        <label for="name">ชื่อ</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">อีเมล</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">ข้อความ</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <button type="submit">ส่งข้อความ</button>
+                    </form>
+                </div>
+            </div>
+
+            <div id="map">
+                <!-- ใช้ Google Map Embed Code -->
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
